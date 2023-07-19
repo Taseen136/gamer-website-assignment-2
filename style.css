@@ -187,8 +187,6 @@ margin-top: 20px;
     position: relative;
     border-radius: 16px;
     border: 5px solid  #F948B2;
-    background-image: url('images/play-button.png');
-background: ;
 }
 .card p{
     color: #534C64;
@@ -196,6 +194,48 @@ background: ;
     font-size: 1.25rem;
     font-weight: 500;
 }
+/* play games styles */
+.play-games-section{
+    display: flex;
+justify-content: center;
+gap: 265px;
+    align-items: center;
+    margin-top:100px ;
+
+}
+.p-g-s-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-bottom: 300px;
+}
+.p-g-s-title{
+    text-align: right;
+font-size: 3rem;
+font-weight: 700;
+margin-bottom: 024px;
+}
+.p-g-s-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.p-g-s-descrip{
+    color: #534C64;
+text-align: right;
+}
+.img-other{
+    position: relative;
+    bottom: 250px;
+    right: 130px;
+}
+
 /* mobile devices styles */
 @media screen and (max-width: 425px) {
     .nav-section{
