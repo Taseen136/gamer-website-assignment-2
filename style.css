@@ -10,6 +10,15 @@ body{
     font-size: 1.125rem;
     font-weight: 500;
 }
+.btn-primary{
+padding: 21px 40px;
+    border-radius: 48px;
+    background:linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+font-size: 1.25rem;
+font-weight: 600;
+border: 0;
+}
 
 /* header styles */
 /* nav styles */
@@ -57,3 +66,75 @@ body{
     color: #3C354F;
 }
 /* banner styles */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('images/Group 14.png');
+    background-repeat: no-repeat;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+    align-items: flex-start;
+ justify-content: center;   
+}
+.banner-content h2{
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 0;
+margin: 0;
+}
+.banner-content h1{
+    text-align: center;
+font-size: 5.93rem;
+font-weight: 800;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding: 0;
+margin: 0;
+}
+.banner-descrip{
+    margin-left: 0;
+    padding: 0; 
+    
+}
+.banner-des{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #534C64;
+text-align: center;
+font-size: 1.25rem;
+font-weight: 500;
+padding: 0;
+margin: 0;
+}
+.banner-des p{
+    margin: 0;
+    margin-top: 17px;
+}
+.sp{
+    margin-bottom: 40px;
+}
+.button{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.btn-2{
+padding: 21px 40px;
+border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+font-size: 1.25rem;
+font-weight: 600;
+border: 0;
+}
+.banner-image{
+    margin-right: 240px ;
+}
